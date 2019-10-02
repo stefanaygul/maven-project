@@ -6,4 +6,4 @@ COPY target/gs-spring-boot-docker-*.jar /gs-spring-boot-docker.jar
 
 EXPOSE 8080
 
-CMD ["java", "-jar", "/server.jar"]
+CMD ["java", "-jar", "/gs-spring-boot-docker.jar"]
