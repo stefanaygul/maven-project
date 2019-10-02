@@ -2,7 +2,7 @@ FROM openjdk:8-jdk-alpine
 
 WORKDIR /opt/airties
 
-COPY ./server.jar /server.jar
+COPY target/gs-spring-boot-docker-*.jar /gs-spring-boot-docker.jar
 
 EXPOSE 8080
 
